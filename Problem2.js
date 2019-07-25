@@ -2,8 +2,8 @@
 
 //Eg: input: [‘hello world’, ‘hello world’]  output: {h: 2, e: 2, l: 6, ‘ ‘: 1, o: 4 …… }
 
-
-function charCount(arr) {
+var input =  ['hello world', 'hello world']
+function charCountMap(arr) {
  
  const str = arr.join('');
   
@@ -34,3 +34,5 @@ strTemp.forEach((element,index)=>{
   
   
 }
+
+console.log(charCountMap(input));
